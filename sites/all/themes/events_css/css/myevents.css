@@ -1,0 +1,19 @@
+//Adding my custom css to events page
+.node-type-calendar-event #content{border: 1px solid black; background-color: #95F863;}
+.node-type-calendar-event #main{ background-image: url("bgimg.jpg");/*background-color: #FADDE4;*/}
+.node-type-calendar-event #page-title{ color: #C70039;}
+.node-type-calendar-event #page-title:hover{ text-decoration: underline; text-decoration-color: #F7F730;}
+.node-type-calendar-event .field-name-field-calendar-date .field-label{ color: #F72487; font-size: 15px; font-family: serif; }
+.node-type-calendar-event .field-name-body .field-label{color: #435DF0; font-size: 15px; font-family: serif; cursor: pointer;}
+.node-type-calendar-event .field-name-body .field-label:hover{ color: #EE5E81;}
+.node-type-calendar-event .field-name-body p{ text-align: justify; display: none;}*/
+//organiser image css
+.node-type-calendar-event .field-name-field-organiser-image {
+  color:black;
+}
+.field-name-field-organiser-image {
+   width: 275px; height: 183px; border: 1px solid black;
+}
+//organiser name
+
+.field-name-field-organiser-name{ color: blue ;text-align: center;}
